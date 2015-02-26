@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<!--  My Groups Button -->
+    <Button
+        android:id="@+id/btn_my_groups"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/my_groups_dash"
+         />
+     
+    <!--  My Boxes Button -->
+    <Button
+        android:id="@+id/btn_my_boxes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/my_boxes_dash"
+        />
+    
+   
+     
+    <!--  Unlock Button -->
+    <Button
+        android:id="@+id/btn_unlock_box"
+        android:layout_width="fill_parent"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/open_lock_icon"
+         />
+</RelativeLayout>
